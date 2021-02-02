@@ -32,25 +32,23 @@ body {
 }
 
 .kitchen {
-    background-color: aqua;
-    /* background-image: url('fb-game-background.png'); */
+    background-image: url('assets/kitchen.png');
     width: 500px;
     height: 580px;
     position: absolute;
 }
 
 .counter {
-    background-color: rgb(104, 69, 26);
-    /* background-image: url('bottom-background.png'); */
+    background-image: url('assets/counter.png');
     width: 500px;
     height: 150px;
     position: absolute;
-    top: 580px;
+    top: 500px;
     z-index: +1;
 }
 
 .egg {
-    background-image: url('/assets/egg.png');
+    background-image: url('assets/egg.png');
     position: absolute;
     width: 60px;
     height: 45px;
@@ -101,11 +99,10 @@ body {
 }
 
 .counter-moving {
-    background-color: rgb(104, 69, 26);
     position: absolute;
-    top: 580px;
+    top: 500px;
     height: 150px;
-    /* background-image: url('bottom-background.png'); */
+    background-image: url('assets/counter.png');
     background-repeat: repeat-x;
     animation: slideright 100s infinite linear;
     -webkit-animation: slideright 100s infinite linear;
