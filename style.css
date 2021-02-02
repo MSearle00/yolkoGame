@@ -50,8 +50,7 @@ body {
 }
 
 .egg {
-    background-color:bisque;
-    /* background-image: url('flappy-bird.png'); */
+    background-image: url('/assets/egg.png');
     position: absolute;
     width: 60px;
     height: 45px;
