@@ -4,10 +4,10 @@ document.addEventListener('DOMContentLoaded' , () => {
     const counter = document.querySelector('.counter-moving')
 
     let eggLeft = 220
-    let eggBottom = 100
+    let eggBottom = 220
     let gravity = 3
     let isGameOver = false
-    let gap = 430
+    let gap = 470
 
 
     function startGame() {

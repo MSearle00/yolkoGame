@@ -5,13 +5,12 @@ body {
     position: fixed;
 }
 
-
-
 .game-container {
     width: 500px;
     height: 730px;
     position: absolute;
     left: 80px;
+    overflow: hidden;
 }
 
 .border-left {
@@ -34,14 +33,16 @@ body {
 .kitchen {
     background-image: url('assets/kitchen.png');
     width: 500px;
-    height: 580px;
+    height: 80vh;
     position: absolute;
 }
 
 .counter {
     background-image: url('assets/counter.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 500px;
-    height: 150px;
+    height: 200px;
     position: absolute;
     top: 500px;
     z-index: +1;
@@ -58,7 +59,6 @@ body {
 
 .pot {
     background-color: grey;
-    /* background-image: url('flappybird-pipe.png'); */
     width: 60px;
     height: 300px;
     position: absolute;
@@ -66,7 +66,6 @@ body {
 
 .extractorFan {
     background-color: grey;
-    /* background-image: url('flappybird-pipe.png'); */
     transform: rotate(180deg);
     width: 60px;
     height: 300px;
@@ -92,7 +91,7 @@ body {
 }
 
 .counter-container {
-    height: 150px;
+    height: 20vh;
     width: 580px;
     left: 80px;
     position:  absolute;
@@ -100,8 +99,9 @@ body {
 
 .counter-moving {
     position: absolute;
+    background-size: cover;
     top: 500px;
-    height: 150px;
+    height: 200px;
     background-image: url('assets/counter.png');
     background-repeat: repeat-x;
     animation: slideright 100s infinite linear;
